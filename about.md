@@ -6,8 +6,6 @@ permalink: /about/
 
 Hello, Bonjour, Hola, Guten Tag, Ciao,
 
-Welcome to my personal web page.
-
 I am Olivier von Dach, born 22.06.1972 in Switzerland where I am living and working.
 
 I share my personal life with my wife. Besides working, we love doing sports outdoors and indoors, wellness, reading or studying and of course having some time with friends.
