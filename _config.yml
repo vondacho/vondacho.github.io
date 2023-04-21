@@ -1,0 +1,21 @@
+# Setup
+title:               Olivier von Dach
+tagline:             'Software Craftsman'
+description:         'Software Craftsmanship is a durable investment that makes possible the reconciliation of software quality, developer experience, low maintenance costs, and reactivity to the market.'
+url:                 https://vondacho.github.io
+baseurl:             '/'
+paginate:            1
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Olivier von Dach
+  url:               
+  email:             olivier.vondach@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.0.0
