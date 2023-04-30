@@ -3,6 +3,8 @@ layout: post
 title: Evooq - Java-Spring Software Engineer
 ---
 
+![](/public/images/evooq.jpeg)
+
 February 2022 – March 2023
 
 ## Context
@@ -24,6 +26,6 @@ The main challenge is the modernization of the existing on-premises advisory sof
 
 ## Projects
 
-* [Evooq - Advisory modernization]({{ '/projects/evooq-advisory-modernisation' | absolute_url }})
-* [Evooq - Macro architecture committee]({{ '/projects/evooq-mac' | absolute_url }})
-* [Evooq - Learning center]({{ '/projects/evooq-learning-center' | absolute_url }})
+* [Advisory modernization]({{ '/projects/evooq-advisory-modernisation' | absolute_url }})
+* [Macro architecture committee]({{ '/projects/evooq-mac' | absolute_url }})
+* [Learning center]({{ '/projects/evooq-learning-center' | absolute_url }})

@@ -3,6 +3,8 @@ layout: post
 title: Edgelab - Kotlin/Java-Spring(-Angular) Software Engineer
 ---
 
+![](/public/images/edgelab.jpeg)
+
 April 2020 – February 2022
 
 ## Context
@@ -23,10 +25,10 @@ A demanding system powered by cutting-edge technologies with daily challenges li
 
 ## Projects
 
-* [Edgelab - Risk engine API]({{ '/projects/edgelab-risk-engine' | absolute_url }})
-* [Edgelab - Living Software Architecture Documentation System]({{ '/projects/edgelab-c4' | absolute_url }})
-* [Edgelab - Corporate API Documentation Portal]({{ '/projects/edgelab-stoplight' | absolute_url }})
-* [Edgelab - Client relationships management]({{ '/projects/edgelab-crm' | absolute_url }})
+* [Risk engine API]({{ '/projects/edgelab-risk-engine' | absolute_url }})
+* [Living Software Architecture Documentation System]({{ '/projects/edgelab-c4' | absolute_url }})
+* [Corporate API Documentation Portal]({{ '/projects/edgelab-stoplight' | absolute_url }})
+* [Client relationships management]({{ '/projects/edgelab-crm' | absolute_url }})
 
 ## Publications
 

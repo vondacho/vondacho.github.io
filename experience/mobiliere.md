@@ -3,6 +3,8 @@ layout: post
 title: La Mobilière - Java-Spring-Angular Software Engineer
 ---
 
+![](/public/images/mobi.png)
+
 October 2016 – February 2020
 
 ## Context
@@ -20,7 +22,7 @@ Software development, system architecture support, and coaching of internal tech
 
 ## Projects
 
-* [La Mobilière – Life Claim System]({{ '/projects/mobiliere-lcs' | absolute_url }})
+* [Life Claim System]({{ '/projects/mobiliere-lcs' | absolute_url }})
 
 ## Publications
 

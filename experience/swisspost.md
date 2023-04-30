@@ -3,6 +3,8 @@ layout: post
 title: SwissPost - Java-Spring-Web Software Engineer
 ---
 
+![](/public/images/swisspost.png)
+
 2002 – September 2016
 
 ## Context
@@ -17,7 +19,7 @@ Software architecture and development of enterprise solutions for Postfinance an
 
 ## Projects
 
-* [PostFinance – E-trading notification service]({{ '/projects/postfinance-e-trading' | absolute_url }})
-* [SwissPost – Consignment notification service]({{ '/projects/swisspost-notifica' | absolute_url }})
-* [SwissPost – Digital Commerce API]({{ '/projects/swisspost-wedec' | absolute_url }})
-* [SwissPost – Parcel price calculation]({{ '/projects/swisspost-paprica' | absolute_url }})
+* [E-trading notification service]({{ '/projects/postfinance-e-trading' | absolute_url }})
+* [Consignment notification service]({{ '/projects/swisspost-notifica' | absolute_url }})
+* [Digital Commerce API]({{ '/projects/swisspost-wedec' | absolute_url }})
+* [Parcel price calculation]({{ '/projects/swisspost-paprica' | absolute_url }})
