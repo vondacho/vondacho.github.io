@@ -355,6 +355,7 @@ _This technique should reveal itself as a sustainable investment in product qual
 
 Ready to use **blueprints** are available as BDD starters for some technology stack:
 
+- [Java BDD blueprint](https://github.com/vondacho/arch-blueprint-java) (Cucumber)
 - [Kotlin BDD blueprint](https://github.com/vondacho/arch-blueprint-kotlin) (Cucumber)
 
 ## References
