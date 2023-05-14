@@ -15,7 +15,7 @@ title: Resume
 ## Summary
 * 25 years in software engineering
 * Main activities being software craftsmanship, software development, and software architecture
-* Focus this last decade on JVM (Java, Spring, Kotlin) and Web (Angular) technologies
+* Focus this last decade on JVM (Java, Kotlin, Spring, Quarkus) and Web (Angular) technologies
 
 ## Drivers
 * Passion for well-crafted software and motivation for continuous improvement
@@ -44,7 +44,7 @@ Craftsmanship (passion, professionalism, commitment, sharing, continuous improve
 * Communication (stakeholders, DDD-strategic, Arc42, C4, UML)
 
 ### Software developer
-* Java, Kotlin, Spring, Spring-Boot, Reactor, Scala, Angular, Typescript
+* Java, Kotlin, Spring, Spring-Boot, Reactor, Quarkus, Scala, Angular, Typescript
 * Microservices
 * DDD, BDD, ATDD
 * Scrum, SAFe
