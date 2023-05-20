@@ -29,3 +29,8 @@ The main challenge is the modernization of the existing on-premises advisory sof
 * [Advisory modernization]({{ '/projects/evooq-advisory-modernisation' | absolute_url }})
 * [Macro architecture committee]({{ '/projects/evooq-mac' | absolute_url }})
 * [Learning center]({{ '/projects/evooq-learning-center' | absolute_url }})
+
+## Publications
+
+* [arch-blueprint-java](https://github.com/vondacho/arch-blueprint-java)
+  
