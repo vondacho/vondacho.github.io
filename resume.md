@@ -51,6 +51,9 @@ Craftsmanship (passion, professionalism, commitment, sharing, continuous improve
 
 ## Last commercial experiences
 
+### Lombard Odier - Java-Quarkus Software Engineer (2023)
+Software engineering applied to the modernization of Lombard Odier's G2 wealth management platform. [more info]({{ '/experience/lombardodier' | absolute_url }})
+
 ### Evooq - Java-Spring Software Engineer (2022 - 2023)
 Software engineering applied to an ambitious unified platform that has to support the whole investment process and be used by investment businesses. [more info]({{ '/experience/evooq' | absolute_url }})
 

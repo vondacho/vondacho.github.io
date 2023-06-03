@@ -11,8 +11,4 @@ To modernise the components of the existing G2 platform.
 
 ## What
 
-To migrate the existing JEE and Spring applications parc to the Quarkus stack.
-
-### Requirements
-
-* ...
+To migrate the existing JBoss EAP applications parc to the Quarkus stack.
