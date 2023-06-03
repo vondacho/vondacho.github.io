@@ -73,6 +73,7 @@ Software development of smart card solutions for access control during internati
 Software development of Windows drivers for color inkjet printers. Engineering of rendering algorithms and solutions for optimal gamut mapping.
 
 ## Last projects
+* [Lombard Odier – G2 platform modernization (2023)]({{ '/projects/lombardodier-g2-modernisation' | absolute_url }})
 * [Evooq – Advisory modernization (2022-2023)]({{ '/projects/evooq-advisory-modernisation' | absolute_url }})
 * [Edgelab – Risk engine API (2020-2022)]({{ '/projects/edgelab-risk-engine' | absolute_url }})
 * [Edgelab – Living software architecture documentation system (2020)]({{ '/projects/edgelab-c4' | absolute_url }})
