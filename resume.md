@@ -91,6 +91,8 @@ Software development of Windows drivers for color inkjet printers. Engineering o
 * [Service design guidelines](https://vondacho.github.io/arch-service-design-guidelines)
 
 ## Certificates
+* [Collaborator @ Evooq (2022-2023)](https://bit.ly/3J256Z6)
+* [Collaborator @ Edgelab (2020-2022)](https://bit.ly/3oWf5Iy)
 * [Collaborator @ Qim-Info (2016-2019)](https://bit.ly/3g2wad4)
 * [Collaborator @ Swiss Post (2002-2016)](https://bit.ly/3mCBqFm)
 * [iSAQB-CPSA–Advanced (2016)](https://bit.ly/2PKFuYh)
