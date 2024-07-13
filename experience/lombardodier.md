@@ -11,7 +11,7 @@ June 2023 – today
 
 [Lombard Odier](https://www.lombardodier.com/home/technology-for-banking.html) is present in Private Banking and Asset Management domains.
 
-Software engineering applied to the modernization of Lombard Odier's G2 wealth management platform.
+Software engineering applied to the modernization of Lombard Odier's GX wealth management platform.
 
 ## Roles
 
@@ -19,4 +19,4 @@ Software engineering applied to the modernization of Lombard Odier's G2 wealth m
 
 ## Projects
 
-* [G2 platform modernisation]({{ '/projects/lombardodier-g2-modernisation' | absolute_url }})
+* [GX platform modernisation]({{ '/projects/lombardodier-gx-modernisation' | absolute_url }})

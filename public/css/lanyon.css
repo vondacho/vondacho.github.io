@@ -47,7 +47,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif, Helvetica;
   font-weight: 400;
-  color: #313131;
+  color: #1a1a1a;
   letter-spacing: -.025rem;
 }
 
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #c0c0c0;
+  color: #505050;
   letter-spacing: 0;
 }
 
@@ -311,7 +311,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #1a1a1a;
 }
 .page-title,
 .post-title {
