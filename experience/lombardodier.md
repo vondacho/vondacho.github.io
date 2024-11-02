@@ -20,3 +20,4 @@ Software engineering applied to the modernization of Lombard Odier's GX wealth m
 ## Projects
 
 * [GX platform modernisation]({{ '/projects/lombardodier-gx-modernisation' | absolute_url }})
+* [API Ops]({{ '/projects/lombardodier-api-ops' | absolute_url }})
