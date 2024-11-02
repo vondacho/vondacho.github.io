@@ -6,7 +6,7 @@ title: Lombard Odier – API Ops
 2024-Q4
 
 ## Why
-
+git 
 Lombard Odier's technical platform is particularly fragmented, with a large number of micro-services and therefore APIs. Providing visibility of public and internal APIs, as well as design, publishing and integration tools for development teams, is essential to implementing an API-as-a-product culture and contract-first software development.
 
 See Papers by Ludovic Pourrat (Solution Architect)
