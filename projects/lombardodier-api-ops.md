@@ -12,10 +12,12 @@ Lombard Odier's technical platform is composed of a large number of micro-servic
 
 * To promote Product-driven API-culture and Contract-first API-design at Lombard Odier.
 * To set up an enterprise web portal for the documentation of both public and internal APIs.
+* To provide SDK generators to ease API integration. 
+* To provide mock servers to ease API try-it-out. 
 
 ### Requirements
 
-* To develop of a showcase that demonstrates the state of the art in API specification on the basis of a story telling.
+* To develop a showcase that demonstrates the state of the art in API specification on the basis of a story telling.
 * To collaborate with Lombard Odier software development teams to help them mature in designing and publishing their APIs.
   
 ### Challenges
