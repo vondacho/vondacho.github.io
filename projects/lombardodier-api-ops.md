@@ -6,12 +6,7 @@ title: Lombard Odier – API Ops
 2024-Q4
 
 ## Why
-git 
-Lombard Odier's technical platform is particularly fragmented, with a large number of micro-services and therefore APIs. Providing visibility of public and internal APIs, as well as design, publishing and integration tools for development teams, is essential to implementing an API-as-a-product culture and contract-first software development.
-
-See Papers by Ludovic Pourrat (Solution Architect)
-- [API Ops - apidays London 2023](https://fr.slideshare.net/slideshow/apidays-london-2023-api-metrics-matters-in-apiops-ludovic-pourrat-lombard-odier-group/261242303)
-- [API Ops - apidays London 2024](https://mastodon.social/@microcksio/113199560575565313)
+Lombard Odier's technical platform is composed of a large number of micro-services and therefore APIs. Providing visibility of public and internal APIs, as well as specification, publishing, integration, and mocking tools for development teams, is essential to implementing API-as-a-product culture and contract-first software development.
 
 ## What
 
@@ -26,10 +21,26 @@ See Papers by Ludovic Pourrat (Solution Architect)
 ### Challenges
 
 * 30 development teams
-* 50 products
+* 60 products
 * 200 APIs
-* OpenAPI, AsyncAPI (Kafka), GraphQL
+
+## How
+
+### Technologies
+
+* OpenShift, Kubernetes
+* Astro, Strapi, Markdown
+* OpenAPI, AsyncAPI, GraphQL
+* Kafka
+* Java
+* Microcks, Mockoon, Apollo
 
 ## Organization
 
 * 1 Solution Architect, 1 Software engineer (me), 1 Operation engineer.
+
+## Links
+
+See Papers by Ludovic Pourrat (Solution Architect)
+- [API Ops - apidays London 2023](https://fr.slideshare.net/slideshow/apidays-london-2023-api-metrics-matters-in-apiops-ludovic-pourrat-lombard-odier-group/261242303)
+- [API Ops - apidays London 2024](https://mastodon.social/@microcksio/113199560575565313)
