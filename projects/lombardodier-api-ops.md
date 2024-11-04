@@ -6,14 +6,16 @@ title: Lombard Odier – API Ops
 2024-Q4
 
 ## Why
-Lombard Odier's technical platform is composed of a large number of micro-services and therefore APIs. Providing visibility of public and internal APIs, as well as specification, publishing, integration, and mocking tools for development teams, is essential to implementing API-as-a-product culture and contract-first software development.
+
+Lombard Odier's technical platform is composed of a large number of micro-services and therefore APIs. Providing visibility of public and internal APIs, as well as design guidelines, specification publishing, integration and mocking tools for development teams, is essential to implementing API-as-a-product culture and contract-first software development.
 
 ## What
 
 * To promote Product-driven API-culture and Contract-first API-design at Lombard Odier.
 * To set up an enterprise web portal for the documentation of both public and internal APIs.
 * To provide SDK generators to ease API integration. 
-* To provide mock servers to ease API try-it-out. 
+* To provide mock servers to ease API try-it-out.
+* To provide API design guidelines.
 
 ### Requirements
 
