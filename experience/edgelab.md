@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Edgelab - Kotlin/Java-Spring(-Angular) Software Engineer
+title: Edgelab - Kotlin-Spring Software Engineer
 ---
 
 ![](/public/images/edgelab.jpeg)
