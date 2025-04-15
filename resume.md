@@ -13,9 +13,9 @@ title: Resume
 * [Github](https://github.com/vondacho)
 
 ## Summary
-* 25 years in software engineering
+* 30 years in software engineering
 * Main activities being software craftsmanship, software development, and software architecture
-* Focus this last decade on JVM (Java, Kotlin, Spring, Quarkus) and Web (Angular) technologies
+* Focus this last decade on JVM (Java, Kotlin, Quarkus, SpringBoot) and Web (Angular) technologies
 
 ## Drivers
 * Passion for well-crafted software and motivation for continuous improvement
@@ -33,8 +33,8 @@ Craftsmanship (passion, professionalism, commitment, sharing, continuous improve
 ## Profiles
 
 ### Software craftsman
-* Influencer for good analysis, design, and coding practices
-* Clean Code, Clean Architecture, DDD, BDD, Event storming, Example mapping
+* Influencer for good analysis, design, coding, and testing practices
+* Clean code, Clean architecture, DDD, BDD
 * Software modernization
 * Mentoring
 
@@ -44,14 +44,15 @@ Craftsmanship (passion, professionalism, commitment, sharing, continuous improve
 * Communication (stakeholders, DDD-strategic, Arc42, C4, UML)
 
 ### Software developer
-* Java, Kotlin, Spring, Spring-Boot, Reactor, Quarkus, Scala, Angular, Typescript
+* Java, Kotlin, Quarkus, SpringBoot
 * Microservices
 * DDD, BDD, ATDD
+* Functional and non-functional testing
 * Scrum, SAFe
 
 ## Last commercial experiences
 
-### Lombard Odier - Java-Quarkus Software Engineer (2023)
+### Lombard Odier - Java-Quarkus Software Engineer (2023 - today)
 Software engineering applied to the modernization of Lombard Odier's G2 wealth management platform. [more info]({{ '/experience/lombardodier' | absolute_url }})
 
 ### Evooq - Java-Spring Software Engineer (2022 - 2023)
@@ -73,7 +74,8 @@ Software development of smart card solutions for access control during internati
 Software development of Windows drivers for color inkjet printers. Engineering of rendering algorithms and solutions for optimal gamut mapping.
 
 ## Last projects
-* [Lombard Odier – G2 platform modernization (2023)]({{ '/projects/lombardodier-g2-modernisation' | absolute_url }})
+* [Lombard Odier – API Ops (2024)]({{ '/projects/lombardodier-api-ops' | absolute_url }})
+* [Lombard Odier – G2 platform modernization (2023-today)]({{ '/projects/lombardodier-g2-modernisation' | absolute_url }})
 * [Evooq – Advisory modernization (2022-2023)]({{ '/projects/evooq-advisory-modernisation' | absolute_url }})
 * [Edgelab – Risk engine API (2020-2022)]({{ '/projects/edgelab-risk-engine' | absolute_url }})
 * [Edgelab – Living software architecture documentation system (2020)]({{ '/projects/edgelab-c4' | absolute_url }})
@@ -105,6 +107,9 @@ Software development of Windows drivers for color inkjet printers. Engineering o
 
 ## Communities
 * Co-founder of [Geneva](https://www.meetup.com/fr-FR/Geneva-software-Craftsmanship/) and [Lausanne](https://www.meetup.com/fr-FR/Lausanne-Software-Craftsmanship-Meetup-Group) Software Craftsmanship meetups
+
+## Start up
+* Co-founder of [SoCraAgile Sàrl](https://www.socragile.ch) technical coaching agency
 
 ## Hobbies, interests
 * Sport (fitness, personal training, hiking, rowing, road cycling, tennis, skiing, basketball)
