@@ -5,6 +5,7 @@
 
 @media (max-width: 1400px) {
   .galery-section {
+    margin-top: 80px;
     padding: 2rem 5% 2rem 5%;
   }
 }

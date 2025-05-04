@@ -235,6 +235,10 @@ blockquote {
     padding-top: 3rem;
   }
 
+  .section-me {
+    margin-top: 80px;
+  }
+
   .section-experience {
     padding: 2rem 5% 2rem 5%;
   }
@@ -290,10 +294,6 @@ blockquote {
   
   .burger.open span:nth-child(3) {
     transform: rotate(-45deg) translateY(-8px);
-  }
-
-  .navbar {
-    height: 50px;
   }
 
   .nav-links {

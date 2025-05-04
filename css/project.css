@@ -9,9 +9,3 @@
         padding: 3rem 5% 4rem 5%;  
     }
 }
-
-@media (max-width: 1000px) {
-    .project-section {
-        margin-top: 50px;
-    }
-}
