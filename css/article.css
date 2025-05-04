@@ -1,0 +1,10 @@
+.article-section {
+  margin-top: 120px;
+  padding: 5rem 25% 5rem 25%;
+}
+
+@media (max-width: 1400px) {
+  .article-section {
+    padding: 2rem 5% 1rem 5%;
+  }
+}
