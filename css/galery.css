@@ -1,0 +1,10 @@
+.galery-section {
+  margin-top: 120px;
+  padding: 5rem 10% 6rem 10%;
+}
+
+@media (max-width: 1400px) {
+  .galery-section {
+    padding: 2rem 5% 2rem 5%;
+  }
+}
