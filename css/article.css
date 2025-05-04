@@ -5,6 +5,13 @@
 
 @media (max-width: 1400px) {
   .article-section {
-    padding: 2rem 5% 1rem 5%;
+      margin-top: 80px;
+      padding: 3rem 5% 4rem 5%;  
+  }
+}
+
+@media (max-width: 1000px) {
+  .article-section {
+      margin-top: 50px;
   }
 }
