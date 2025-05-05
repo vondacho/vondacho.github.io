@@ -85,6 +85,12 @@
       section.style.display = section.style.display === 'none' ? 'grid' : 'none';
       toggle.style.display = 'none';
     }
+    function toggleOtherEducation() {
+      const section = document.getElementById('other-education');
+      const toggle = document.getElementById('other-education-toggle');
+      section.style.display = section.style.display === 'none' ? 'grid' : 'none';
+      toggle.style.display = 'none';
+    }
   </script>
   
   <section id="experience" class="section-experience">
@@ -143,6 +149,9 @@
     </div>
     <div class="grid">
       <div class="grid-cell">
+        <h2>Recent classes</h2>
+        <h4>Rust programming</h4><small>Udemy, 2024</small>
+        <h4>Apache Kafka Series</h4><small>Udemy, Mareek, 2023</small>
         <h2>Background</h2>
         <h4><a href="https://bit.ly/2PKFuYh" target="_blank">iSAQB-CPSA–Advanced</a></h4><small>Germany, 2014 – 2016</small>
         <h4><a href="https://bit.ly/3t9mrFx" target="_blank">Master in Computer Science</a></h4><small>University of Neuchâtel, 1992 – 1996</small>
@@ -151,6 +160,21 @@
         <h2>Recent certifications</h2>
         <h4>Swiss SnowSports ZA,ZA-Kids,ME</h4><small>Villars, 2025</small>
         <h4>PT Coaching Academy - Personal Trainer</h4><small>Lonay, 2024</small>
+        <h4><a href="https://ude.my/UC-044bba1d-32e6-45ec-b572-32d6597cb8a0" target="_blank">Building Microservices with Quarkus</a></h4><small>Udemy, 2023</small>
+      </div>
+    </div>
+    <div id="other-education-toggle">
+      <p style="padding-top: 2rem;"><a href="#education" onclick="toggleOtherEducation()">more...</a></p>
+    </div>
+    <div id="other-education" class="grid" style="display: none;">
+      <div class="grid-cell">
+      </div>
+      <div class="grid-cell">
+        <h2>Other certifications</h2>
+        <h4><a href="https://www.coursera.org/account/accomplishments/verify/MLGSSGHNNKCR" target="_blank">Kotlin for Java Developers</a></h4><small>Coursera, 2018</small>
+        <h4><a href="https://www.coursera.org/account/accomplishments/verify/UED53E9FDDP4" target="_blank">Functional Program Design in Scala</a></h4><small>Coursera, 2016</small>
+        <h4><a href="https://www.coursera.org/account/accomplishments/verify/LTEFTFSM7S" target="_blank">Functional Programming Principles in Scala</a></h4><small>Coursera, 2016</small>
+        <h4><a href="https://bit.ly/3z6kePB" target="_blank">iSAQB-CPSA - Advanced Level</a></h4><small>Germany, 2016</small>
       </div>
     </div>
   </section>
