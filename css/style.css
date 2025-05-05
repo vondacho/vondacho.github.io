@@ -43,10 +43,25 @@ p {
   margin-bottom: 1rem;
 }
 
+.copyright {
+  font-size: 1.2rem;
+}
+
 a {
   font-size: 1.5rem;
   font-weight: 300;
   color: #daa000;
+}
+
+.copyright a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
 }
 
 ul {
