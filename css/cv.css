@@ -50,9 +50,7 @@ li {
 }
 
 .footer {
-    background: #333;
-    color: white;
-    padding: 0rem 0rem 1rem;
+    padding: 0rem 0rem;
     text-align: left;
     margin-top: 2rem;
 }
