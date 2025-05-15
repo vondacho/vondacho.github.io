@@ -229,7 +229,7 @@ blockquote {
   font-style: italic;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   .navbar {
     height: 80px;
   }
