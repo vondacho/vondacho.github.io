@@ -7,6 +7,24 @@
   <title>Software craftsman - Olivier von Dach</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/cv.css">
+
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .column {
+      flex: 1 1 calc(25% - 1rem);
+      min-width: 200px;
+    }
+
+    @media (max-width: 768px) {
+      .column {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -18,20 +36,46 @@
         <p><img src="img/photo_passport_olivier.jpg" width="200px"/></p>
 
         <small>1972.6.22</small>
-        <p>FR, EN(B2), DE(B2), ES(B2)</p>
+        <p>Swiss, I speak FR, EN(B2), DE(B2), ES(B2)</p>
 
         <h2>Software engineer, Craftsman, Backend polyglot</h2>
 
         <p>Passionate about well-crafted code, I design software systems that are durable, scalable and maintainable at low cost.</p>
-        <p>My craft expertise enables me to influence the implementation of modern software engineering practices such as 
-          <strong>DDD</strong>, <strong>BDD</strong>, <strong>ATDD</strong>, and <strong>xClean</strong> (Archi, Code, API) 
+        <p>My craft expertise enables me to influence the implementation of modern software engineering practices
           within technical teams.</p>
-        <p>Analysing, testing, designing, implementing and delivering business services and <strong>API</strong>s at scale 
-          in a distributed architecture context.
-        <p>
-          My linguistic expertise focuses on the <strong>Java, Kotlin, Scala, and Rust</strong> programming languages and the <strong>Spring Boot and Quarkus</strong> application frameworks,
-          as well as the ability to take on the role of developer, technical lead or technical architect.
+        <p>My linguistic expertise focuses on the major programming languages and application frameworks,
+          as well as the ability to take on multiple roles.
         </p>
+
+        <h3>Skills</h3>
+        <div class="container">
+        <ul class="column">
+          <li>SW&nbsp;developer</li>
+          <li>SW&nbsp;craftsman</li>
+          <li>SW&nbsp;architect</li>
+          <li>Technical&nbsp;leader</li>
+        </ul>
+        <ul class="column">
+          <li>DDD</li>
+          <li>BDD</li>
+          <li>ATDD</li>
+          <li>Clean&nbsp;Archi</li>
+          <li>Clean&nbsp;Code</li>
+          <li>API</li>
+        </ul>
+        <ul class="column">
+          <li>Java</li>
+          <li>Kotlin</li>
+          <li>Rust</li>
+          <li>Scala</li>
+        </ul>
+        <ul class="column">
+          <li>Quarkus</li>
+          <li>SpringBoot</li>
+          <li>Microservices</li>
+          <li>Angular</li>
+        </ul>
+        </div>
 
         <h3>Background</h3>
         <h4><a href="https://bit.ly/2PKFuYh" target="_blank">iSAQB-CPSA–Advanced</a></h4><small>Germany, 2014 – 2016</small>
