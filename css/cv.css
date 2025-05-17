@@ -60,14 +60,8 @@ li {
     min-width: 200px;
 }
 
-@media (max-width: 768px) {
-    .column {
-        flex: 1 1 100%;
-    }
-}
-
 .footer {
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     margin-top: 2rem;
     text-align: left;
 }
@@ -79,11 +73,37 @@ li {
 
 .footer .grid {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem;
 }
 
 .footer .grid-cell {
-    flex: 1 1 33%;
-    padding: 0 0;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+#address {
+    flex-shrink: 0;
+}
+
+#links {
+    flex-shrink: 2.5;
+}
+
+#qrcode {
+    flex-shrink: 8;
+}
+
+@media (max-width: 768px) {
+    .skills .column {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .footer .grid {
+        flex-wrap: wrap;
+    }
+
+    .footer .grid-cell {
+        padding: 1 1 100%;
+    }
 }
