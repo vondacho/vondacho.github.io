@@ -97,13 +97,3 @@ li {
         flex: 1 1 100%;
     }
 }
-
-@media (max-width: 1200px) {
-    .footer .grid {
-        flex-wrap: wrap;
-    }
-
-    .footer .grid-cell {
-        padding: 1 1 100%;
-    }
-}
