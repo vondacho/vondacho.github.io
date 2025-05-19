@@ -42,14 +42,12 @@
 
     <h2>Requirements</h2>
     <ul>
-      <li>To be in charge for the whole feature lifecycle, ie analysis, testing, design, realization, delivery, and
-        maintenance.</li>
-      <li>The ownership of several microservices.</li>
+      <li>To expose daily computed risk metrics related to asset portfolios with constant response time.</li>
+      <li>Every request must be treated in less than 100 milliseconds, independently of portfolio size.</li>
     </ul>
 
     <h2>Challenges</h2>
     <ul>
-      <li>Exposure of risk metrics for assets portfolios in a reactive way and with constant response time.</li>
       <li>Daily challenges are availability and scalability in the context of 1 million of risk estimation requests on
         asset portfolios a day.</li>
       <li>Daily ingestion of 1-2 millions of instruments from financial markets.</li>
