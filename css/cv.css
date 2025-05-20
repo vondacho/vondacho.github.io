@@ -66,11 +66,6 @@ li {
     text-align: left;
 }
 
-.footer p {
-    margin-top: 0rem;
-    margin-bottom: 0.5rem;
-}
-
 .footer .grid {
     display: flex;
 }
@@ -86,13 +81,14 @@ li {
 
 #links {
     flex-shrink: 2.5;
+    font-size: 3rem;
 }
 
 #qrcode {
     flex-shrink: 8;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr !important;
     }
@@ -106,7 +102,11 @@ li {
     }
 
     .footer {
-        padding: 60px 2vw 20px 2vw;
+        padding: 10px 2vw 20px 2vw;
+    }
+
+    .footer .grid {
+        flex-wrap: wrap;
     }
 
     #address {
@@ -119,5 +119,9 @@ li {
 
     #qrcode {
         flex-shrink: 0;
+    }
+
+    .footer .grid-cell {
+        flex: 1 1 100%;
     }
 }
