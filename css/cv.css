@@ -92,8 +92,32 @@ li {
     flex-shrink: 8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+    .grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .grid-cell {
+        padding: 0 5% 2rem;
+    }
+
     .skills .column {
         flex: 1 1 100%;
+    }
+
+    .footer {
+        padding: 60px 2vw 20px 2vw;
+    }
+
+    #address {
+        flex-shrink: 0;
+    }
+
+    #links {
+        flex-shrink: 0;
+    }
+
+    #qrcode {
+        flex-shrink: 0;
     }
 }
