@@ -210,8 +210,8 @@ small {
   margin-bottom: 20px;
 }
 
-.footer a {
-  color: white;
+.footer .social a {
+  color: #333;
 }
 
 blockquote {

@@ -66,6 +66,10 @@ li {
     text-align: left;
 }
 
+.footer a {
+  color: white;
+}
+
 .footer .grid {
     display: flex;
 }
