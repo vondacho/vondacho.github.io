@@ -1,49 +1,3 @@
-@media (max-width: 1200px) {
-  .navbar {
-    height: 80px;
-  }
-
-  .grid {
-    grid-template-columns: 1fr !important;
-  }
-
-  .grid-cell {
-    padding: 0 5% 2rem;
-  }
-  
-  .grid-cell-dark {
-    padding: 0 5% 2rem;
-  }
-
-  .grid-cell-lightgray {
-    padding: 0 5% 2rem;
-  }
-  
-  .bloc-philosophy {
-    padding-top: 3rem;
-  }
-
-  .section-me {
-    margin-top: 80px;
-  }
-
-  .section-experience {
-    padding: 2rem 5% 2rem 5%;
-  }
-  
-  .section-education {
-    padding: 2rem 5% 2rem 5%;
-  }
-  
-  .section-accomplishments {
-    padding: 2rem 5% 2rem 5%;
-  }
-  
-  .section-localisation {
-    padding: 2rem 5% 0 5%;
-  }
-}
-
 .burger {
   margin-top: 10px;
   display: none;
@@ -66,8 +20,7 @@
   transition: 0.3s;
 }
 
-/* === Responsive pour mobile (<= 768px) === */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .burger {
     display: flex;
   }
@@ -116,6 +69,54 @@
     width: 100%;
     display: block;
   }
+  
+  .navbar {
+    height: 80px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .grid-cell {
+    padding: 0 5% 2rem;
+  }
+  
+  .grid-cell-dark {
+    padding: 0 5% 2rem;
+  }
+
+  .grid-cell-lightgray {
+    padding: 0 5% 2rem;
+  }
+  
+  .bloc-philosophy {
+    padding-top: 3rem;
+  }
+
+  .section-me {
+    margin-top: 80px;
+  }
+
+  .section-experience {
+    padding: 2rem 5% 2rem 5%;
+  }
+  
+  .section-education {
+    padding: 2rem 5% 2rem 5%;
+  }
+  
+  .section-accomplishments {
+    padding: 2rem 5% 2rem 5%;
+  }
+  
+  .section-localisation {
+    padding: 2rem 5% 0 5%;
+  }
+}
+
+/* === Responsive pour mobile (<= 768px) === */
+@media (max-width: 768px) {
 
   .map-btn {
     font-size: 1rem;
