@@ -222,6 +222,34 @@
     </div>
   </section>
 
+  <section id="contact" class="section-contact">
+    <h2>Contact</h2>
+    <form id="contact-form" class="contact-form" action="https://formspree.io/f/mrbwkkda" method="POST">
+      <div class="form-group">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone">
+        <div id="phone-error" style="color:#c00; font-size:0.97rem; display:none; margin-top:4px;">Invalid phone number.</div>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail *</label>
+        <input type="email" id="email" name="email" required>
+        <div id="email-error" style="color:#c00; font-size:0.97rem; display:none; margin-top:4px;">Invalid email address.</div>
+      </div>
+      <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" required rows="5"></textarea>
+      </div>
+      <div id="recaptcha" class="g-recaptcha" data-sitekey="6LeJdCUrAAAAACHeCM1V9baQq0Rt8_8NrL0x5WQs"
+        data-callback="onSubmit" data-size="invisible">
+      </div>
+      <button type="submit" id="send-btn" class="submit-button" disabled>Send</button>
+    </form>
+  </section>
+
   <footer class="footer">
     <div class="social">
       <a href="https://www.linkedin.com/in/vondacho/" target="_blank">
@@ -239,5 +267,73 @@
   </footer>
 
   <script>setupBurgerMenu(document);</script>
+
+  <script>
+    const requiredFields = [
+      document.getElementById('name'),
+      document.getElementById('email'),
+      document.getElementById('message')
+    ];
+
+    const sendBtn = document.getElementById('send-btn');
+
+    sendBtn.onclick = validate;
+
+    function validate(event) {
+      grecaptcha.execute();
+    }
+
+    function onSubmit(token) {
+      document.getElementById('phone-error').style.display = 'none';
+      document.getElementById('email-error').style.display = 'none';
+      document.getElementById("contact-form").submit();
+    }
+
+    const emailField = document.getElementById('email');
+    const emailError = document.getElementById('email-error');
+
+    emailField.addEventListener('input', function () {
+      if (emailField.value.trim() === '' || isValidEmail(emailField.value.trim())) {
+        emailError.style.display = 'none';
+      } else {
+        emailError.style.display = '';
+      }
+    });
+
+    const phoneField = document.getElementById('phone');
+    const phoneError = document.getElementById('phone-error');
+
+    phoneField.addEventListener('input', function () {
+      if (!isValidPhone(phoneField.value)) {
+        phoneError.style.display = '';
+      } else {
+        phoneError.style.display = 'none';
+      }
+    });
+
+    function isValidEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
+    function isValidPhone(phone) {
+      if (phone.trim() === '') return true;
+      // Autorise +41 (ou 0), chiffres, espaces, tirets et parenthèses, 6 à 20 caractères
+      return /^(\+?\d{1,4})?[\s\-\.]?\(?\d{2,4}\)?[\s\-\.]?\d{2,4}[\s\-\.]?\d{2,6}$/.test(phone.trim());
+    }
+
+    function checkRequired() {
+      let valid = requiredFields.every(input => input.value.trim() !== '');
+      let emailOk = isValidEmail(emailField.value.trim());
+      let phoneOk = isValidPhone(document.getElementById('phone').value.trim());
+      sendBtn.disabled = !(valid && emailOk && phoneOk);
+      console.info('submit button is disabled:' + sendBtn.disabled);
+    }
+
+    requiredFields.forEach(input => {
+      input.addEventListener('input', checkRequired);
+    });
+
+    window.addEventListener('DOMContentLoaded', checkRequired);
+  </script>
 </body>
 </html>
