@@ -113,10 +113,27 @@
   .section-localisation {
     padding: 2rem 5% 0 5%;
   }
+
+  .contact-section {
+    padding: 60px 2vw;
+  }
+
+  .map-section {
+    padding: 50px 0 0 0;
+  }
 }
 
 /* === Responsive pour mobile (<= 768px) === */
 @media (max-width: 768px) {
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+  }
 
   .map-btn {
     font-size: 1rem;
