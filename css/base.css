@@ -114,13 +114,6 @@ small {
   display: inline-block;
 }
 
-.nav-links .social {
-  display: flex;
-  flex-direction: row;
-  align-content: flex-start;
-  align-items: flex-start;
-}
-
 .nav-links a {
   color: white;
   text-decoration: none;
