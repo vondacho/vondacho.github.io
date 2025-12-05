@@ -53,6 +53,10 @@ a {
   color: #daa000;
 }
 
+i {
+  font-size: 2rem;
+}
+
 .copyright a {
   font-size: 1.2rem;
   text-decoration: none;
@@ -216,7 +220,14 @@ small {
 }
 
 .footer .social a {
-  color: #333;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer .social a:hover,
+.footer .social a.active {
+  color: #f9c846;
 }
 
 blockquote {
