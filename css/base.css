@@ -8,6 +8,12 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+a {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #daa000;
+}
+
 h1 {
   font-size: 3rem;
   font-weight: 300;
@@ -15,11 +21,20 @@ h1 {
   margin-bottom: 2rem;
 }
 
-h2, h2 a {
+h2 {
   font-size: 2.5rem;
   font-weight: 300;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
+}
+
+h2 a {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #daa000;
+  text-decoration: none;
 }
 
 h3 {
@@ -47,11 +62,6 @@ p {
   font-size: 1.2rem;
 }
 
-a {
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: #daa000;
-}
 
 i {
   font-size: 2rem;
